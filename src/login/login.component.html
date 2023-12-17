@@ -1,0 +1,25 @@
+<div class="login-wrapper">
+<div class="screen">
+  <div class="screen__content">
+  <form [formGroup]="loginform" class = "login-form">
+    <div class="login__field">
+      <i class="login__icon"> *</i>
+        <input class="login__input" placeholder="Email" id="Email" type="email" formControlName="userEmail">
+    </div>
+    <div class="login__field">
+      <i class="login__icon"> *</i>
+      <input class="login__input" placeholder="Password" id="Password" type="password" formControlName="UserPasswd">
+    </div>
+  <button class="button login__submit">
+    <span></span>Log in
+  <i class="button__icon">*</i></button>
+</form>
+  </div>
+  <div class="screen__background">
+    <span class="screen__background__shape screen__background__shape4"></span>
+    <span class="screen__background__shape screen__background__shape3"></span>
+    <span class="screen__background__shape screen__background__shape2"></span>
+    <span class="screen__background__shape screen__background__shape1"></span>
+  </div>
+</div>
+</div>
